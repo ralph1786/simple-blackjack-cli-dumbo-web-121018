@@ -58,5 +58,6 @@ def runner
     first_draw = hit?(first_draw)
     display_card_total(first_draw)
 end
+end_game()
 end
     
