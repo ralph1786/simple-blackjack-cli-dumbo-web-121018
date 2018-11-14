@@ -53,7 +53,7 @@ end
 
 def runner
   welcome
-  initial_round
+  first_draw = initial_round
   hit?
 end
     
