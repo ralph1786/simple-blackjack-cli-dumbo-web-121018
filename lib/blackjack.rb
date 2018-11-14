@@ -34,8 +34,7 @@ def hit?(number)
   player_choice = get_user_input
   if player_choice == "h"
     deal_card
-  # elsif player_choice == "s"
-  #   return display_card_total(number)
+  
 end
 end
 
