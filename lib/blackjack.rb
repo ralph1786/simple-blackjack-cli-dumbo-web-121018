@@ -55,6 +55,6 @@ def runner
   welcome
   first_draw = initial_round
   while first_draw < 21
-  
+end
 end
     
