@@ -35,7 +35,7 @@ def hit?(total_amount)
   if player_choice == "h"
     total_amount += deal_card
   elsif player_choice == "s"
-    
+    total_amount
 end
 
 def invalid_command
