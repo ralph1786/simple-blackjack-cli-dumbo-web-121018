@@ -32,10 +32,6 @@ end
 def hit?(number)
   prompt_user
   player_choice = get_user_input
-  if player_choice == "h"
-    deal_card
-  
-end
 end
 
 def invalid_command
