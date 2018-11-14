@@ -53,11 +53,11 @@ end
 
 def runner
   welcome
-  first_draw = initial_round
-  while first_draw < 21
-    first_draw = hit?(first_draw)
-    display_card_total(first_draw)
+  total_draw = initial_round
+  while total_draw < 21
+    total_draw = hit?(total_draw)
+    display_card_total(total_draw)
 end
-end_game()
+end_game(total_draw)
 end
     
