@@ -29,7 +29,7 @@ def initial_round
   return first_game
 end
 
-def hit?(number)
+def hit?(total_amount)
   prompt_user
   player_choice = get_user_input
 end
