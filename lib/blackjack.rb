@@ -34,6 +34,8 @@ def hit?(total_amount)
   player_choice = get_user_input
   if player_choice == "h"
     total_amount += deal_card
+  elsif player_choice == "s"
+    
 end
 
 def invalid_command
